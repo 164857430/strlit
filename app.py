@@ -28,7 +28,7 @@ ARGO_AUTH = os.environ.get('ARGO_AUTH', 'eyJhIjoiN2JiMzIyOTY2ZTBmZTgzOWY4MTM5MWV
 ARGO_PORT = int(os.environ.get('ARGO_PORT', '8001'))
 CFIP = os.environ.get('CFIP', 'time.is')
 CFPORT = int(os.environ.get('CFPORT', '443'))
-NAME = os.environ.get('NAME', 'Stream')
+NAME = os.environ.get('NAME', 'Streamlit')
 CHAT_ID = os.environ.get('CHAT_ID', '')
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
 PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) 
@@ -622,5 +622,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
